@@ -91,7 +91,7 @@ function replaceByManifest (manifestPath = './manifest.json') {
     let contents = file.contents.toString('utf8')
 
     for (const filepath in manifest) {
-      contents = contents.replace(filepath, manifest[filepath])
+      contents = contents.replace(/filepath/gm, manifest[filepath])
     }
 
     file.contents = Buffer.from(contents)
