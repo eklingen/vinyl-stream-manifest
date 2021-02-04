@@ -1,6 +1,6 @@
 {
   "name": "@eklingen/vinyl-stream-manifest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vinyl-stream utility -aka Gulp plugin- to generate a manifest.json for consumption by, for example, a webserver.",
   "repository": {
     "type": "git",
