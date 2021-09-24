@@ -1,6 +1,7 @@
 
 # Changelog
 
+v2.0.1 - Upgrade dependencies
 v2.0.0 - Upgrade node to v14 LTS
 v1.0.4 - Bug fixed where replacements weren't done at all
 v1.0.3 - Bug fixed where replacements weren't greedy
